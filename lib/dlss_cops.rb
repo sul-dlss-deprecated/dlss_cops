@@ -1,4 +1,4 @@
-require "dlss_cops/version"
+require 'dlss_cops/version'
 
 module DlssCops
   # Your code goes here...
