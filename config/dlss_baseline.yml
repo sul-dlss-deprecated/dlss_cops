@@ -7,9 +7,17 @@ AllCops:
     - '**/Rakefile'
     - '**/config.ru'
   Exclude:
+    - 'Gemfile'
+    - 'Gemfile.lock'
+    - '*.gemspec'
+    - '**/*.md'
+    - 'bin/*'
+    - 'config/**/*.yml'
     - 'db/**/*'
     - 'script/**/*'
     - '.internal_test_app/**/*'
+    - 'spec/fixtures/**/*'
+    - 'spec/internal/**/*'
     - 'spec/test_app_templates/**/*'
     - 'vendor/**/*'
 
@@ -17,7 +25,7 @@ AllCops:
 Rails:
   Enabled: true
 
-# Cops with default values configured
+# DLSS configuration changes for these cops enabled by default in Rubocop
 
 Metrics/AbcSize:
   Max: 20
@@ -55,7 +63,11 @@ RSpec/ExampleWording:
   IgnoredWords:
     - only
 
-# Cops that are turned off by default because we disagree about them
+# DLSS explicitly disabling these cops enabled by default in Rubocop
+# (DLSS agrees they should be disabled, or we disagree about whether they should be enabled)
+
+Style/AccessModifierIndentation:
+  Enabled: false
 
 Style/AlignHash:
   Enabled: false
