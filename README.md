@@ -14,7 +14,7 @@ Then execute:
 
     $ bundle
 
-Then set up your .rubocop.yml` file as such:
+Then set up your `.rubocop.yml` file as such:
 
 ```yaml
 inherit_gem:
