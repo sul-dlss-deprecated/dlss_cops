@@ -90,6 +90,9 @@ Style/ClosingParenthesisIndentation:
 Style/Documentation:
   Enabled: false
 
+Style/EmptyLinesAroundBlockBody:
+  Enabled: false
+
 Style/EmptyLinesAroundClassBody:
   Enabled: false
 
