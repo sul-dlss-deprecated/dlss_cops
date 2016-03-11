@@ -84,6 +84,9 @@ Style/BlockComments:
 Style/ClassAndModuleChildren:
   Enabled: false
 
+Style/ClosingParenthesisIndentation:
+  Enabled: false
+
 Style/Documentation:
   Enabled: false
 
