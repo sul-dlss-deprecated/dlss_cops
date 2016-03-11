@@ -102,6 +102,9 @@ Style/EmptyLinesAroundModuleBody:
 Style/ExtraSpacing:
   Enabled: false
 
+Style/IndentArray:
+  Enabled: false
+
 Style/LeadingCommentSpace:
   Enabled: false
 
