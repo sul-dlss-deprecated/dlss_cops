@@ -99,6 +99,9 @@ Style/EmptyLinesAroundClassBody:
 Style/EmptyLinesAroundModuleBody:
   Enabled: false
 
+Style/ExtraSpacing:
+  Enabled: false
+
 Style/LeadingCommentSpace:
   Enabled: false
 
