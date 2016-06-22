@@ -1,6 +1,7 @@
 # DlssCops
 
 DlssCops is a Rubocop configuration gem that holds DLSS's baseline Ruby style guide.
+See https://github.com/sul-dlss/DeveloperPlaybook/tree/master/style for more information about the DLSS style.
 See https://github.com/bbatsov/rubocop for more information about Rubocop.
 
 ## Installation
