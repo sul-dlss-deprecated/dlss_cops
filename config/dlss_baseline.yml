@@ -46,12 +46,6 @@ Metrics/MethodLength:
 Metrics/ModuleLength:
   Max: 200
 
-Style/IfUnlessModifier:
-  MaxLineLength: 120
-
-Style/WhileUntilModifier:
-  MaxLineLength: 120
-
 RSpec/ExampleWording:
   CustomTransform:
     be: is
@@ -86,9 +80,6 @@ Layout/SpaceAfterNot:
   Enabled: false
 
 Layout/SpaceAroundEqualsInParameterDefault:
-  Enabled: false
-
-Layout/SpaceInsideBrackets:
   Enabled: false
 
 Layout/TrailingBlankLines:
