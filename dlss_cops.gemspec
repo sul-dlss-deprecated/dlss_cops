@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Michael J. Giarlo']
   spec.email         = ['mjgiarlo@stanford.edu']
 
-  spec.summary       = "DlssCops is a Rubocop configuration gem that holds DLSS's baseline Ruby style guide"
-  spec.description   = "DlssCops is a Rubocop configuration gem that holds DLSS's baseline Ruby style guide."
-  spec.homepage      = 'https://github.com/sul-dlss/dlss_cops'
+  spec.summary       = "[DEPRECATED] DlssCops is a Rubocop configuration gem that holds DLSS's baseline Ruby style guide"
+  spec.description   = "[DEPRECATED] DlssCops is a Rubocop configuration gem that holds DLSS's baseline Ruby style guide."
+  spec.homepage      = 'https://github.com/sul-dlss-deprecated/dlss_cops'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = 'exe'
@@ -20,6 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'rubocop', '~> 0.52.0'
   spec.add_dependency 'rubocop-rspec', '~> 1.23.0'
-  spec.add_development_dependency 'bundler', '~> 1.11'
+  spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake', '~> 12'
 end
