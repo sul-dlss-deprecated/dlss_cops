@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This gem was deprecated on March 4th, 2022 after lying fallow for four years.
+
 # DlssCops
 
 DlssCops is a Rubocop configuration gem that holds DLSS's baseline Ruby style guide.
